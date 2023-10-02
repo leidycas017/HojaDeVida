@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500;600&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500;600&family=Questrial&family=Roboto:wght@900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+.main-title > h3 {
+  color: black;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.professional-skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 10px;
+}
+
+.professional-skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 5px 15px;
+}
+
+
+.language-bar {
+  width: 290px;
+  height: 5px;
+  background-color: #b9b9b9;
+}
+
+.language-bar > div {
+  height: 5px;
+  background-color: #47B5A3;
+  width: 60%;
+}
+
+.perfil {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+}
+
+.linea {
+  border-top: 0.5px solid rgb(194, 192, 192);
+  margin-top: 40px;
+}
+
+.icon-color {
+  color: #47B5A3; /* Cambia 'blue' al color que desees */
+}
+
+.debug{
+  border: 2px solid rgb(255, 0, 0);;
+}
+
+.texto-grande-bold {
+  font-size: 25px; 
+  font-weight: bold; 
+}
+
+.button-color{
+  background-color: #2ca38f;
+}
+
+.custom-button:hover:hover {
+  background-color: #02937b; /* Nuevo color de fondo al hacer hover */
+}
+
+
+
+
+
