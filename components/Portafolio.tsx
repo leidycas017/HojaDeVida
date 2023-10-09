@@ -10,19 +10,19 @@ import { Settings } from '@mui/icons-material';
 const data = [
     {img: "/images/app1.jpg", title:"Películas Review - Fullstack", 
     descripcion:"Aplicación web para hacer review de películas utilizando MongoDb para la base de datos, Java con Spring Boot para el backend y React para el frontend.",
-    videoId:"P_57jLr2GgE"},
+    videoId:"pokkhA9gy_k"},
     {img: "/images/productos.jpg", title:"App ventas - Fullstack", 
     descripcion:"Análisis, diseño y desarrollo de un sistema de ventas con autenticación utilizando jwt, angular en el frontend, java con spring boot en el backend y MySQL para la base de datos.",
-    videoId:"P_57jLr2GgE"},
+    videoId:"pokkhA9gy_k"},
     {img: "/images/agenda.jpg", title:"Agenda de contactos - Fullstack", 
     descripcion:"Aplicación de escritorio, elaborada con Java, JavaFX y Scene Builder donde el usuario puede ingresar su email y password para realizar el CRUD de su datos.",
-    videoId:"P_57jLr2GgE"},
+    videoId:"pokkhA9gy_k"},
     {img: "/images/perfil.jpg", title:"Evaluación del perfil de riesgo", 
     descripcion:"Creación de un sistema para evaluar el perfil de un inversionista, usando thymeleaf en el frontend, java con spring boot y MySQL para la base de datos.",
-    videoId:"P_57jLr2GgE"},
+    videoId:"pokkhA9gy_k"},
     {img: "/images/calculadora.jpg", title:"Desarrollo Frontend", 
     descripcion:"Set de aplicaciones creadas con angular para practicar el databinding, directivas, componentes, routeo, servicios y formularios, desplegados en Netlify.",
-    videoId:"P_57jLr2GgE"},
+    videoId:"pokkhA9gy_k"},
 ]
 
 
