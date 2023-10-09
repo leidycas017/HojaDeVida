@@ -11,7 +11,7 @@ const Sidebard = () => {
         <div>
           <img
             className="perfil"
-            src="/images/f.jpg"
+            src="/images/f2.png"
             alt="Foto de perfil"
           />
         </div>
@@ -20,7 +20,7 @@ const Sidebard = () => {
           <p >Estudiante de Ing. de Sistemas</p>
           <p >Universidad de Antioquia</p>
         </div>
-        <div className="linea w-full mt-6 mb-6"></div>
+        <div className="linea w-full"></div>
 
         <div className="text-black flex flex-col ">
           <div className="flex gap-3 items-center">
@@ -32,11 +32,10 @@ const Sidebard = () => {
             <span>leidy.castanoc@udea.edu.co</span>
           </div>
         </div>
-        <div className="linea w-full">
-        </div>
+        <div className="linea w-full"></div>
 
 
-        <section className="text-black py-5">
+        <section className="text-black">
           <div className="main-title">
             <h3>
               <strong>Lenguajes</strong>
@@ -59,10 +58,9 @@ const Sidebard = () => {
               <Bar porcentaje={75} />
             </div>
           </div>
-          <div className="linea w-full">
-          </div>
-
         </section>
+
+        <div className="linea w-full"></div>
 
         <section className="text-black">
           <div className="main-title">
@@ -124,8 +122,9 @@ const Sidebard = () => {
             </div>
           </div>
         </section>
+        <div className="linea w-full"></div>
 
-        <div className="text-black py-4 ">
+        <div className="text-black">
           <div className="main-title">
             <h3>
               <strong>Habilidades Adicionales</strong>

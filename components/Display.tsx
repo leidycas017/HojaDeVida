@@ -29,13 +29,13 @@ const Display = () => {
             </p>
 
             <button className="bg-[#aae5db] rounded-full  text-black font-bold py-2 px-4 mt-2 custom-button-social hover:cursor-pointer" onClick={scrollToSection}>
-              Contactame
+              Portafolio
             </button>
           </p>
         </div>
 
         <div className="xl:flex items-center hidden">
-          <Image src="/images/f.jpg" height={300} width={300} alt="Photo" />
+          <Image src="/images/f.png" height={300} width={300} alt="Photo" />
         </div>
       </div>
 
