@@ -13,6 +13,9 @@ const config: Config = {
         roboto:["Roboto", "sans-serif"],
       }
   },
+  screens: {
+    xs: '444px',
+  },
   plugins: [],
 }
 export default config

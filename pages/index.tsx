@@ -1,29 +1,47 @@
 
 import { Display } from "@/components/Display";
+import { Education } from "@/components/Education";
+import { Portafolio } from "@/components/Portafolio";
 import { Sidebard } from "@/components/Sidebard";
 import { Sidebari } from "@/components/Sidebari";
-import { PlaylistContainer } from "@/components/playlistContainer";
+import { KnowledgeContainer } from "@/components/knowledgeContainer";
+
 
 
 const Home = () => {
   return (
-    <div className="text-white min-h-screen flex font-questrial">
-      {/* Primer aside (izquierda) */}
+    <div className=" border-2 border-[red] min-h-screen fondo flex font-questrial justify-between">
+
+
       <Sidebard />
 
-      <main className='w-full h-full flex flex-col'>
-        {/* Contenido en el centro */}
-        <div className="container-card flex flex-col h-full">
-          <div className="h-full flex flex-col mr-8 mb-5">
-            <Display/>
-          </div>
-          <PlaylistContainer name={'Spotify playlist'} />
-          <PlaylistContainer name={'Focus'} />
-        </div>
-      </main>
 
-      {/* Segundo aside (derecha) */}
+
+
+      <main className='w-2/3'>
+
+
+        <div className="mr-8 flex-1">
+          <Display />
+          <KnowledgeContainer name={'Dominio Profesional'} />
+          <Education name={'Educación'} />
+           <Portafolio name={'Portafolio'} />
+
+
+          <div className="footer mt-5">
+            <p>© 2023 Copyright</p>
+          </div>
+        </div>
+
+        
+      </main>
+      
+
       <Sidebari />
+
+
+
+
     </div>
   );
 };

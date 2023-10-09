@@ -5,10 +5,17 @@
 @tailwind utilities;
 
 
+@media (min-width: 444px) {
+  .xs {
+    /* Estilos para pantallas mayores a 900px */
+  }
+}
 
 
 
-.main-title > h3 {
+
+
+.main-title>h3 {
   color: black;
 }
 
@@ -35,13 +42,13 @@
 
 
 .language-bar {
-  width: 290px;
-  height: 5px;
+  width: 280px;
+  height: 4px;
   background-color: #b9b9b9;
 }
 
-.language-bar > div {
-  height: 5px;
+.language-bar>div {
+  height: 4px;
   background-color: #47B5A3;
   width: 60%;
 }
@@ -54,31 +61,109 @@
 
 .linea {
   border-top: 0.5px solid rgb(194, 192, 192);
-  margin-top: 40px;
 }
 
 .icon-color {
-  color: #47B5A3; /* Cambia 'blue' al color que desees */
+  color: #47B5A3;
+  /* Cambia 'blue' al color que desees */
 }
 
-.debug{
-  border: 2px solid rgb(255, 0, 0);;
+.ing {
+  color: #02937b;
+}
+
+.debug {
+  border: 2px solid rgb(255, 0, 0);
+  ;
 }
 
 .texto-grande-bold {
-  font-size: 25px; 
-  font-weight: bold; 
+  font-size: 30px;
+  font-weight: bold;
 }
 
-.button-color{
+.button-color {
   background-color: #2ca38f;
 }
 
 .custom-button:hover:hover {
-  background-color: #02937b; /* Nuevo color de fondo al hacer hover */
+  background-color: #02937b;
+  /* Nuevo color de fondo al hacer hover */
 }
 
+.custom-button-social:hover:hover {
+  background-color: #93c8c1;
+  /* Nuevo color de fondo al hacer hover */
+}
 
+.custom-card:hover:hover {
+  background-color: #93c8c1;
+  /* Nuevo color de fondo al hacer hover */
+}
 
+.fondo {
+  background: #edcae0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fffcdc, #edcbe1);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fffcdc, #efcfe3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
 
+.name {
+  background: #edcae0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fffcdc, #edcbe1);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fffcdc, #efcfe3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.slick-list {
+  margin-right: -30px;
+}
+
+.slick-slide>div {
+  margin: 0 30px;
+}
+
+.slick-slide>div:nth-child(1) {
+  margin-left: 0;
+}
+
+.footer {
+  bottom: 0;
+  text-align: center;
+  background-color: white;
+}
+
+.sidebar {
+  position: fixed;
+}
+
+.asider {
+  float: right;
+}
+
+.asidl {
+  float: left;
+}
+
+.zinc {
+  background: #bfcdda;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eef2f3, #e8efd5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eef2f3, #f8f9f4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.custom-mas:hover:hover {
+  color: #01685c;
+  /* Nuevo color de fondo al hacer hover */
+}
+
+.zoom-wrapper{
+  overflow: hidden;
+}
+
+.zoom-wrapper img{
+  transition: transform 0.8s;
+}
+
+.zoom-wrapper:hover img{
+  transform: scale(0.8);
+}
