@@ -10,7 +10,7 @@ import { KnowledgeContainer } from "@/components/knowledgeContainer";
 
 const Home = () => {
   return (
-    <div className=" border-2 border-[red] min-h-screen fondo flex font-questrial justify-between">
+    <div className="  min-h-screen fondo flex font-questrial justify-between">
 
 
       <Sidebard />

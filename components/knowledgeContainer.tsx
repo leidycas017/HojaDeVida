@@ -6,14 +6,14 @@ interface KnowledgeContainerProps {
 
 const KnowledgeContainer = ({ name }: KnowledgeContainerProps) => {
     return (
-        <section className="flex flex-col gap-5 border-2 border-[red] p-2 justify-center">
-            <div className="flex justify-center mt-5 border-2 border-[blue]">
+        <section className="flex flex-col gap-5 p-2 justify-center">
+            <div className="flex justify-center mt-5">
                 <span className="text-black text-2xl font-bold ">{name}</span>
             </div>
             <div className="flex justify-center">
                 <span className="text-black">Diseño – Análisis – Desarrollo – Microservicios – Web – Móvil – Stand alone.</span>
             </div>
-            <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-5 border-2 border-[red]">
+            <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-5">
                 <Card image="/images/code.jpg" title="Desarrollo Back-End"
                     description="Diseño y creación de la lógica del servidor, 
                               estableciendo conexiones con bases de datos tanto SQL como 
